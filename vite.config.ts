@@ -10,6 +10,12 @@ const config: UserConfig = {
   build: {
     target: "esnext",
   },
+
+  resolve: {
+    alias: {
+      "~": "/src",
+    },
+  },
 };
 
 export default config;
